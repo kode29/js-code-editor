@@ -52,6 +52,9 @@ function initializeCodeEditors() {
         return defaultOptions;
     }
 
+    // IDEA: Possible implementations -@kyle at 12/30/2023, 10:39:54 PM
+    // Use localStorage to load pre-entered content and load upon refresh instead of default
+
     const codeEditors = {
         html: CodeMirror(htmlEditor, getDefaultOptions({
             mode: 'text/html',
